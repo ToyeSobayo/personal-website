@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 400;
+    color: #8094a8;
+    background-color: #0D1117;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.header {
+    text-align: center;
+    color: #94A6B8; 
+    font-size: large;
+}
+
+.content {
+    text-align: left;
+    margin: 20px;
+    overflow: auto;
+    max-width: 640px;
+    color: #8094a8
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.contact-me {
+    text-align: center;
+}
+
+.socials a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #b0c4de;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    text-decoration: underline;
+}
+
